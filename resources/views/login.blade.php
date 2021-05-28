@@ -4,7 +4,7 @@
 </div>
 <style>
     body {
-        background: linear-gradient(to right, #7F8CFA , #8C7CC2);
+        background: linear-gradient(to right, #FF7F50 , #FF7F50);
         min-height: 100vh;
         margin: 0;
         padding: 0;

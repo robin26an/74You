@@ -1,7 +1,7 @@
 @include('layouts.app')
 
 <title>74You - Profil</title>
-<div class="row header" style="text-align:center;color:white;font-weight:bold;">
+<div class="row header" style="text-align:center;color:white;font-weight:bold;margin-top: 30px">
     <h3>VOTRE PROFIL</h3>
 </div>
 
@@ -9,16 +9,16 @@
 </nav>
 <!-- /Breadcrumb -->
 
-<div class="row gutters-sm">
-    <div class="col-md-8">
-        <div class="card top">
+<div class="row gutters-sm" style="margin-left:550px" >
+    <div class="col-md-7" style="background: #f79d7c">
+        <div class="" >
             <div class="card-body">
                 <div class="row">
+                    <div class="m-b-30"> <img src="https://img.icons8.com/bubbles/100/000000/user.png" class="img-radius" alt="User-Profile-Image"> </div>
                     <div class="col-sm-3">
                         <h6 class="git remote mb-0">Nom / Prénom</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                        Nom
                         Prénom
                     </div>
                 </div>
@@ -57,6 +57,9 @@
             </div>
         </div>
     </div>
+    <tbody>
+
+    </tbody>
 </div>
 
 
@@ -65,5 +68,6 @@
         margin-top: 50px;
     }
 </style>
+
 
 
