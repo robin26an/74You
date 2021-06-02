@@ -28,6 +28,7 @@ Route::middleware(['connexion'])->group(function(){
     Route::get("/tableauDeBord",[\App\Http\Controllers\RentalController::class,'index'])->name('tableauDeBord');
     Route::get("/formulaireReservation",[\App\Http\Controllers\AgencyController::class,'index'])->name('formulaireReservation');
     Route::get("/profil",[\App\Http\Controllers\profilController::class,'profil'])->name('profil');
+    Route::get("/service",[\App\Http\Controllers\ServiceController::class,'service'])->name('service');
 
 });
 

@@ -12,6 +12,7 @@
         <th scope="col">Agence d'arrivée</th>
         <th scope="col">Date d'arrivée</th>
         <th scope="col">Client</th>
+        <th scope="col">Service</th>
     </tr>
     </thead>
     <tbody>
@@ -23,6 +24,7 @@
             <td class="text-active" >{{$rental->endAgency_id}}</td>
             <td class="text-active" >{{$rental->endDate}}</td>
             <td class="text-active" >{{$rental->customer_id}}</td>
+            <td class="text-active" >{{$rental->services_id}}</td>
         </tr>
     @empty
     @endforelse

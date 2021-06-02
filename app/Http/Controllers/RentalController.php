@@ -33,9 +33,9 @@ class RentalController extends Controller
             "startAgency_id" => $req->startAgency_id,
             "endAgency_id" => $req->endAgency_id,
             "customer_id" => $req->customer_id,
+            "services_id" => $req->services_id,
         ]);
-        //dd($http);
-        //dd($req->input());
+        return redirect(route("tableauDeBord"));
     }
 
 

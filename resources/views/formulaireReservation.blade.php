@@ -32,6 +32,14 @@
             @endforelse
         </select>
     </p>
+    <p><label>Service : </label>
+        <select name="services_id">
+            @forelse($services as $service)
+                <option value="{{$service->id}}">{{$service->name}} </option>
+            @empty
+            @endforelse
+        </select>
+    </p>
     <p>Id salarié conducteur : <input type="text" name="customer_id"/></p>
     <!--<p>Son numéro de permis : <input type="text" name="numPermis"/></p>-->
     <p><input type="submit" value="Réserver" ></p>
